@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Horas Extras
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto é um aplicativo desenvolvido com [Expo](https://expo.dev) e [React Native](https://reactnative.dev) para facilitar o registro e o controle das horas extras realizadas por funcionários.
 
-## Get started
+## Objetivo
 
-1. Install dependencies
+O objetivo principal do aplicativo é permitir que o usuário registre facilmente suas horas extras, informando data, horário de início, horário de término e uma breve descrição. Além disso, o app possibilita a exportação dos registros em formato texto, facilitando o envio ou armazenamento dos dados.
+
+## Funcionalidades
+
+- **Cadastro de horas extras:** Informe data, horário de início, horário de término e descrição da atividade.
+- **Visualização dos lançamentos:** Veja a lista de todas as horas extras cadastradas.
+- **Filtro por período:** Exporte os registros de horas extras filtrando por intervalo de datas.
+- **Exportação dos dados:** Gere um texto com os lançamentos filtrados para copiar ou compartilhar.
+
+## Como rodar o projeto
+
+1. Instale as dependências:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Inicie o aplicativo:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Escolha abrir no emulador Android, iOS ou no navegador (web).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Estrutura do Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **app/**: Contém os arquivos principais do aplicativo e as telas.
+- **components/**: Componentes reutilizáveis da interface.
+- **hooks/**: Hooks personalizados para o projeto.
+- **constants/**: Constantes de configuração, como cores.
+- **assets/**: Imagens e fontes utilizadas no app.
 
-## Get a fresh project
+## Exportação dos dados
 
-When you're ready, run:
+Na tela principal, é possível filtrar os lançamentos por período e gerar um texto com os dados das horas extras, pronto para ser copiado ou compartilhado.
 
-```bash
-npm run reset-project
-```
+## Tecnologias utilizadas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Expo
+- React Native
+- TypeScript
 
-## Learn more
+## Futuras melhorias
 
-To learn more about developing your project with Expo, look at the following resources:
+- Exportação em PDF ou Excel.
+- Sincronização com nuvem.
+- Autenticação de usuário.
+- Notificações de lembrete.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Projeto em
