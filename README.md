@@ -56,4 +56,4 @@ Na tela principal, é possível filtrar os lançamentos por período e gerar um 
 
 ---
 
-Projeto em
+Projeto em andamento.
